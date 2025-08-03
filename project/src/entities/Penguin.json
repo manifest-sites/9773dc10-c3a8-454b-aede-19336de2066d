@@ -1,0 +1,45 @@
+{
+  "name": "Penguin",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the penguin"
+    },
+    "species": {
+      "type": "string",
+      "description": "Species name of the penguin"
+    },
+    "habitat": {
+      "type": "string",
+      "description": "Natural habitat of the penguin"
+    },
+    "height": {
+      "type": "string",
+      "description": "Average height of the penguin species"
+    },
+    "diet": {
+      "type": "string",
+      "description": "Primary diet of the penguin"
+    },
+    "funFact": {
+      "type": "string",
+      "description": "Interesting fact about the penguin species"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL to penguin image"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this penguin is marked as favorite"
+    }
+  },
+  "required": [
+    "species",
+    "habitat",
+    "height",
+    "diet",
+    "funFact"
+  ]
+}
